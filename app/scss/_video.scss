@@ -1,0 +1,18 @@
+.video {
+    margin-bottom: 220px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    &__play {
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        cursor: pointer;
+    }
+
+    &__img {
+        position: relative;
+    }
+}

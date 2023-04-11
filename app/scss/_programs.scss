@@ -1,0 +1,72 @@
+.programs {
+    margin-bottom: 213px;
+
+    &__title {
+        margin-bottom: 129px;
+    }
+
+    &__authors {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__author {
+        width: 430px;
+    }
+}
+.title {
+}
+.author {
+
+    &__img {
+        margin: 0 auto;
+    }
+
+    &__name {
+        font: normal 800 18px/140% "Montserrat", sans-serif;
+        color: $COLOR_MAIN;
+        border: 7px solid #29305B;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 28px 12px 27px;
+        background: #fff;
+        margin-bottom: 55px;
+    }
+
+    &__name-male {
+        position: relative;
+        margin-top: -53px;
+    }
+
+    &__name-female {
+        position: relative;
+        margin-top: -20px;
+    }
+
+    &__specs {
+        padding: 0 40px;
+    }
+
+    &__specs-title {
+        text-align: left;
+        margin-bottom: 25px;
+    }
+
+    &__specs-list {
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+
+    &__specs-item {
+        margin-bottom: 25px;
+        padding-left: 7px;
+        list-style: square url(../images/star.png) outside;
+    }
+
+    &__btn {
+        margin-bottom: 20px;
+        margin-left: 40px;
+    }
+}

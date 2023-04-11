@@ -1,0 +1,71 @@
+.footer {
+    padding-bottom: 60px;
+    padding-top: 125px;
+    margin-top: -25px;
+    background: url(../images/footer_pattern.png);
+    position: relative;
+
+    &__links {
+        display: flex;
+    }
+
+    &__contacts {
+    }
+
+    &__logo {
+        margin-bottom: 40px;
+    }
+
+    &__social {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__social-img {
+    }
+
+    &__about {
+        margin-top: 11px;
+        margin-left: 156px;
+    }
+
+    &__courses {
+        margin-top: 11px;
+        margin-left: 108px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__course {
+        margin-bottom: 25px;
+        width: 280px;
+        cursor: pointer;
+    }
+
+    &__policy {
+        margin-top: 11px;
+        margin-left: 121px;
+    }
+
+    &__policy-item {
+        padding-bottom: 25px;
+        cursor: pointer;
+    }
+
+    &__separator {
+        border: 1px solid $COLOR_MAIN;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-bottom: 40px;
+        opacity: 0.5;
+    }
+    &__business {
+        text-align: center;
+        font: normal 400 14px/140% 'Noto Sans', sans-serif;
+        color: $COLOR_MAIN;
+    }
+
+    &__shadow {
+        top: -100px;
+        right: -800px;
+    }
+}

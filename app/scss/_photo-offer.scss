@@ -1,0 +1,48 @@
+.photo-offer { 
+    margin-top: 203px;
+	margin-bottom: 400px;
+	position: relative;
+
+	&__title {
+		margin-bottom: 33px;
+	}
+
+	&__title_highlighting {
+		color: #fff;
+		background: url(../images/title_bg_photo.svg) 0 0/100% 95% no-repeat;
+		padding: 22px 0;
+		margin: 0 -30px;
+	}
+
+	&__subtitle {
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	&__btn {
+		margin-bottom: 42px;
+	}
+
+	&__description {
+		display: flex;
+		justify-content: center;
+		gap: 55px;
+	}
+
+	&__description-item {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	&__shadow {
+		left: -300px;
+		top: 300px;
+	}
+
+	&__pattern {
+        position: absolute;
+        top: 500px;
+        left: 0;
+    }
+}

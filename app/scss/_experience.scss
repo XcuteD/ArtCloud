@@ -1,0 +1,44 @@
+.experience {
+
+    &__block {
+        display: flex;
+        margin-bottom: 265px;
+        align-items: center;
+        position: relative;
+    }
+
+    &__img {
+        width: 520px;
+        height: 624px;
+    }
+
+    &__text {
+        padding-left: 70px;
+    }
+
+    &__subtitle {
+        text-align: left;
+    }
+
+    &__title {
+        text-align: left;
+    }
+
+    &__list {
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    &__list li{
+        position: relative;
+        list-style: square url(../images/star.png) outside;
+        width: 470px;
+        padding-left: 20px;
+        padding-top: 25px;
+    }
+
+    &__shadow {
+        top: -300px;
+        right: -700px;
+    }
+}

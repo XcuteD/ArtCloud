@@ -1,0 +1,35 @@
+.conditions {
+
+    &__title {
+        margin-bottom: 100px;
+    }
+
+    &__list {
+        align-items: start;
+        margin-bottom: 40px;
+    }
+
+    &__list-item {
+        width: 380px;
+        padding: 35px 30px;
+    }
+
+    &__sub {
+        text-transform: uppercase;
+        color: $COLOR_MAIN;
+        font: $FONT_TITLE;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &__btn {
+        margin-bottom: 195px;
+    }
+}
+
+.condition {
+
+    &__title {
+        margin-bottom: 20px;
+    }
+}

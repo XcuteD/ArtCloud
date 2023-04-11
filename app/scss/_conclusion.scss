@@ -1,0 +1,53 @@
+.conclusion {
+
+    &__block {
+        background-color: #F7A636;
+        display: flex;
+        border-radius: 30px;
+        align-items: center;
+        position: relative;
+    }
+
+    &__questions {
+        padding: 123px 12px 123px 45px;
+    }
+    &__img {
+        margin-top: -100px;
+        left: 0;
+        top: 0;
+        width: 372px;
+        height: 606px;
+
+    }
+    &__title {
+        margin-bottom: 30px;
+    }
+
+    &__text {
+        margin-bottom: 30px;
+        color: #fff;
+        text-align: center;
+        width: 500px;
+    }
+
+    &__marks {
+        width: 233px;
+        height: 378px;
+    }
+    
+    &__btn {
+        background-color: #fff;
+        border: none;
+    }
+
+    &__btn:active {
+        border: 2px solid #fff;
+        color: #fff;
+        background-color: transparent;
+    }
+
+    &__shadow {
+        top: -500px;
+        left: -800px;
+    }
+}

@@ -1,0 +1,38 @@
+.header {
+    position: relative;
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+    }
+
+    &__links {
+        display: flex;
+        gap: 33px;
+    }
+
+    &__link {
+        display: flex;
+        align-items: center;
+    }
+    
+    &__link:hover {
+        opacity: 0.8;
+    }
+
+    &__home:hover {
+        opacity: 0.8;
+    }
+
+    &__shadow {
+        top: -300px;
+        right: -300px;
+    }
+
+    &__pattern {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}

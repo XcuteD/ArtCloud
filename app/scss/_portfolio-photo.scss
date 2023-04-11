@@ -1,0 +1,35 @@
+.portfolio-photo {
+    margin-bottom: 245px;
+    position: relative;
+
+    &__title {
+        margin-bottom: 80px;
+        display: block;
+        position: relative;
+    }
+    &__title:last-child {
+        margin-bottom: 64px;
+    }
+    &__title_highlighting {
+        display: inline;
+        color: #F7A636;
+    }
+    &__text {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    &__slider {
+        margin-bottom: 40px;
+    }
+    
+    &__sub {
+        width: 840px;
+        margin: 120px auto 40px;
+    }
+
+    &__shadow {
+        top: 800px;
+        left: -300px;
+    }
+
+}

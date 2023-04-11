@@ -1,0 +1,94 @@
+.rate {
+    margin-bottom: 75px;
+    position: relative;
+
+    &__title {
+        margin-bottom: 90px;
+    }
+
+    &__plans {
+        flex-direction: column;
+    }
+
+    &__plans-item:nth-child(even) {
+        background-color: #A273B0;
+    }
+
+    &__plans-item:nth-child(even) *{
+        color: #fff;
+    }
+
+    &__plans-item:nth-child(even) .btn_side{
+        background-color: #A273B0;
+        border-color: #fff;
+    }
+
+    &__plans-item:nth-child(even) .btn_main{
+        background-color: #F7A636;
+        border-color: #F7A636;
+    }
+
+    &__plans-item {
+        padding: 50px 50px 30px 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__shadow {
+        top: -300px;
+        right: -700px;
+    }
+}
+
+.plan {
+
+    &__payment {
+        flex: 0 0 33%;
+    }
+
+    &__title {
+        text-align: left;
+        margin-bottom: 50px;
+    }
+
+    &__price {
+        text-align: left;
+        margin-bottom: 50px;
+    }
+
+    &__btn {
+        margin-bottom: 15px;
+        margin-left: 0;
+    }
+
+    &__description {
+        margin-left: 200px;
+        text-align: left;
+    }
+
+    &__components {
+        margin-bottom: 20px;
+        margin-top: -20px;
+    }
+
+    &__components li{
+        position: relative;
+        list-style: square url(../images/star.png) outside;
+        padding-left: 20px;
+        padding-top: 25px;
+    }
+
+    &__skill {
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    &__skill-title {
+        display: inline;
+        font-weight: 700;
+    }
+
+    &__skill-text {
+        display: inline;
+    }
+}

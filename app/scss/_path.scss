@@ -1,0 +1,80 @@
+.path {
+    margin-bottom: 220px;
+
+    &__title {
+        margin-bottom: 110px;
+    }
+
+    &__title:after {
+        left: -75px;
+    }
+
+    &__steps {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__steps-item {
+        display: flex;
+        height: 200px;
+        color: #F7A636;
+    }
+}
+
+.step {
+
+    &__wrapper {
+        margin-top: -20px;
+    }
+
+    &__title {
+        flex: 0 1 50%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 140%;
+    }
+
+    &__title:nth-of-type(odd), 
+    &__number:nth-of-type(odd) {
+        border-right: 3px solid #F7A636;
+        padding-right: 90px;
+        position: relative;
+    }
+
+    &__number:nth-of-type(odd) {
+        text-align: right;
+    }
+
+    &__title:nth-of-type(odd):after, 
+    &__number:nth-of-type(odd):after {
+        content: '';
+        position: absolute;
+        background: #F7A636; //dots
+        width: 13px;
+        height: 13px;
+        top: -2px;
+        right: -9px;
+        border-radius: 10px;
+    }
+
+    &__number:nth-of-type(even),
+    &__title:nth-of-type(even) {
+        padding-left: 90px;
+    }
+
+    &__number {
+        font: normal 700 60px/130% "Inter", sans-serif;
+        flex: 0 1 50%;
+    }
+}
+
+.step:last-of-type > .step__title {
+    border-right: none;
+}
+
+.step:last-of-type > .step__title:after {
+    right: -6px;
+}

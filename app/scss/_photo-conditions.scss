@@ -1,0 +1,47 @@
+.photo-conditions {
+
+    &__title {
+        margin-bottom: 84px;
+    }
+
+    &__list {
+        margin-bottom: 56px;
+        flex-direction: column;
+        gap: 15px;
+        width: 860px;
+        margin: 0 auto;
+        margin-bottom: 56px;
+    }
+
+    &__list-item {
+        display: flex;
+        align-items: center;
+    }
+
+    &__sub {
+        margin: 0 auto;
+        margin-bottom: 140px;
+        width: 860px;
+    }
+
+    &__sub_highlighting {
+        display: inline;
+        color: #A273B0;
+    }
+}
+.title {
+}
+.text-block {
+}
+.photo-condition {
+    &__img {
+        padding: 55px;
+    }
+
+    &__title {
+        text-align: left;
+        padding: 30px 60px 30px 0;
+    }
+}
+.text-box {
+}

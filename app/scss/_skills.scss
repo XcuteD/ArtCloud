@@ -1,0 +1,39 @@
+.skills {
+    background-color: #8581BC;
+    padding-bottom: 140px;
+    margin-bottom: 208px;
+
+    &__title {
+        margin: 0 auto;
+        padding-top: 140px;
+        margin-bottom: 60px;
+        text-align: left;
+        width: 900px;
+        color: #fff;
+        flex-direction: column;
+    }
+
+    &__title p {
+        text-align: right;
+    }
+
+    &__list {
+        justify-content: center;
+    }
+
+    &__list-item {
+        width: 380px;
+        padding: 35px 40px;
+    }
+}
+
+.skill {
+    background-color: #fff;
+    &__title {
+
+    }
+
+    &__text {
+        margin-top: 25px;
+    }
+}

@@ -1,0 +1,55 @@
+.expectations {
+    margin-bottom: 237px;
+
+    &__title {
+        margin-bottom: 60px;
+    }
+
+    &__list {
+    }
+
+    &__list-item1 {
+        background-color: #83CFEC;
+    }
+
+    &__list-item2 {
+        background-color: #8581BC;
+
+        &  .title {
+            color: #fff;
+        }
+        &  .text {
+            color: #fff;
+        }
+    }
+
+    &__list-item3 {
+        background-color: #F7A636;
+
+        &  .title {
+            color: #fff;
+        }
+        &  .text {
+            color: #fff;
+        }
+    }
+}
+
+.expectation {
+    width: 380px;
+    padding: 35px 0;
+    border: none;
+
+    &__title {
+        padding: 0 20px 20px;
+    }
+
+    &__text {
+        padding: 0 40px;
+    }
+
+    &__separator {
+        margin: 20px 0 10px;
+
+    }
+}

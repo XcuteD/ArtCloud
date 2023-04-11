@@ -1,0 +1,85 @@
+@import '../../../node_modules/slick-carousel/slick/slick.scss';
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background-color: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 0;
+
+    &::before {
+        display: table;
+    }
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.slick-prev {
+    position: absolute;
+    left: -85px;
+    background-color: transparent;
+
+    &::before {
+        content: "";
+        background: url(../images/arrow_left.svg);
+        width: 45px;
+        height: 45px;
+    }
+}
+
+.slick-next {
+    position: absolute;
+    right: -80px;
+    overflow: hidden;
+    background-color: transparent;
+
+    &::before {
+        content: "";
+        background: url(../images/arrow_right.svg);
+        width: 45px;
+        height: 45px;
+    }
+}
+
+.slick-dots {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    li {
+        display: inline-block;
+        margin: 0 3px;
+    }
+
+    button {
+        margin-bottom: -40px;
+        padding: 0;
+        border: none;
+        background-color: #fff;
+        cursor: pointer;
+        width: 42px;
+        height: 4px;
+        font-size: 0;
+        border: 1px solid $COLOR_MAIN;
+        border-radius: 18px;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}
+
+.slick-active {
+    button {
+        background-color: $COLOR_MAIN;
+    }
+}
