@@ -39,7 +39,7 @@
     &__title:before {
         content: "";
         position: absolute;
-        background: url(../images/cross.svg);
+        background: url(../images/cross.svg) 0 0/100% 100% no-repeat;
         width: 45px;
         height: 45px;
         top: 30px;
@@ -56,11 +56,5 @@
         text-align: left;
         overflow: hidden;
         padding-bottom: 20px;
-    }
-}
-
-.btn {
-
-    &_main {
     }
 }

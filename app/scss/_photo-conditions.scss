@@ -29,19 +29,16 @@
         color: #A273B0;
     }
 }
-.title {
-}
-.text-block {
-}
+
 .photo-condition {
     &__img {
         padding: 55px;
+        width: 64px;
+        height: 60px;
     }
 
     &__title {
         text-align: left;
         padding: 30px 60px 30px 0;
     }
-}
-.text-box {
 }

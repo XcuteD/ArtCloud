@@ -62,7 +62,7 @@
     }
 
     &__description {
-        margin-left: 200px;
+        margin-left: 150px;
         text-align: left;
     }
 
@@ -71,16 +71,20 @@
         margin-top: -20px;
     }
 
-    &__components li{
+    &__components li {
         position: relative;
-        list-style: square url(../images/star.png) outside;
-        padding-left: 20px;
+        background: url(../images/star.png) 0 25px/14px 14px no-repeat;
+        padding-left: 35px;
         padding-top: 25px;
     }
 
+    li:first-child::marker {
+        font-size: 5rem;
+      }
+
     &__skill {
         margin-bottom: 20px;
-        padding-left: 20px;
+        padding-left: 35px;
     }
 
     &__skill-title {

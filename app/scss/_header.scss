@@ -1,6 +1,11 @@
 .header {
     position: relative;
 
+    &__logo {
+        width: 185px;
+        height: 47px;
+    }
+
     &__nav {
         display: flex;
         justify-content: space-between;
@@ -32,6 +37,8 @@
 
     &__pattern {
         position: absolute;
+        width: 254px;
+        height: 173px;
         top: 0;
         right: 0;
     }
