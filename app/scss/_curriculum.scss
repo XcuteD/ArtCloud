@@ -1,6 +1,11 @@
 .curriculum {
+    padding-top: 120px;
     margin-bottom: 150px;
     position: relative;
+
+    &_bg {
+        background-color: #F3F3F3;
+    }
 
     &__title {
         margin-bottom: 90px;

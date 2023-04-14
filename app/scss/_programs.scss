@@ -1,5 +1,6 @@
 .programs {
     margin-bottom: 213px;
+    position: relative;
 
     &__title {
         margin-bottom: 129px;
@@ -13,9 +14,14 @@
     &__author {
         width: 430px;
     }
+
+    &__shadow {
+		left: -400px;
+		top: -100px;
+        z-index: -1;
+	}
 }
-.title {
-}
+
 .author {
 
     &__img {
@@ -46,27 +52,46 @@
     }
 
     &__specs {
-        padding: 0 40px;
+        padding-left: 40px;
     }
 
     &__specs-title {
         text-align: left;
-        margin-bottom: 25px;
     }
 
     &__specs-list {
         margin-bottom: 30px;
-        margin-left: 20px;
     }
 
     &__specs-item {
-        margin-bottom: 25px;
-        padding-left: 7px;
-        list-style: square url(../images/star.png) outside;
+        position: relative;
+        background: url(../images/star.png) 0 25px/14px 14px no-repeat;
+        padding-left: 35px;
+        padding-top: 25px;
     }
 
     &__btn {
         margin-bottom: 20px;
         margin-left: 40px;
+    }
+
+    &__name-male:after {
+        content: '';
+        position: absolute;
+        background: url(../images/orange_inst.png) 0 0/100% 100% no-repeat;
+        width: 99px;
+        height: 99px;
+        top: 15px;
+        right: -45px;
+    }
+
+    &__name-female:after {
+        content: '';
+        position: absolute;
+        background: url(../images/blue_inst.png) 0 0/100% 100% no-repeat;
+        width: 99px;
+        height: 99px;
+        top: 15px;
+        right: -45px;
     }
 }

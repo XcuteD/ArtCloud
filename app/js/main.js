@@ -17,7 +17,7 @@ $(window).on('load', function(){
             }
             },
             {
-            breakpoint: 480,
+            breakpoint: 320,
             settings: {
                 arrows: false,
                 centerMode: true,
@@ -46,7 +46,7 @@ $(window).on('load', function(){
             }
             },
             {
-            breakpoint: 480,
+            breakpoint: 320,
             settings: {
                 arrows: false,
                 centerMode: true,

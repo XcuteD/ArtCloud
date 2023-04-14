@@ -28,11 +28,17 @@
         display: inline;
         color: #A273B0;
     }
+
+    &__sub_highlighting-video {
+        display: inline;
+        color: #F7A636
+    }
+
 }
 
 .photo-condition {
     &__img {
-        padding: 55px;
+        margin: 55px;
         width: 64px;
         height: 60px;
     }

@@ -1,6 +1,11 @@
 .portfolio-photo {
-    margin-bottom: 245px;
+    padding-bottom: 150px;
+    padding-top: 200px;
     position: relative;
+
+    &_bg {
+        background-color: #F3F3F3;
+    }
 
     &__title {
         width: 840px;
@@ -16,6 +21,10 @@
         display: inline;
         color: #F7A636;
     }
+    &__title_highlighting-video {
+        display: inline;
+        color: #8581BC;
+    }
     &__text {
         margin-bottom: 100px;
         text-align: center;
@@ -25,7 +34,7 @@
     }
     
     &__sub {
-        width: 840px;
+        width: 800px;
         margin: 120px auto 40px;
     }
 

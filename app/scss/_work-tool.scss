@@ -1,0 +1,20 @@
+.work-tool {
+    margin-top: 150px;
+    margin-bottom: 135px;
+    margin-left: 40px;
+
+    &__title {
+        text-align: left;
+        width: 780px;
+    }
+
+    &__highlight {
+        text-align: center;
+        color: #fff;
+        background: url(../images/work-tool_bg.png) 0 0/100% 100% no-repeat;
+        padding: 15px;
+        margin-top: -30px;
+        margin-left: 400px;
+        width: 600px;
+    }
+}

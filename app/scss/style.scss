@@ -23,10 +23,16 @@
 @import 'path';
 @import 'portfolio-photo';
 
+@import 'video-offer';
+@import 'work-tool';
+
 @import 'shadows';
 
 @import './libs/fancybox';
 @import './libs/slick';
 
 @import 'media(1200)';
-@import 'media(320)'
+
+@import 'media(320)';
+
+@import 'media(640)';

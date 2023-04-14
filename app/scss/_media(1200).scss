@@ -32,9 +32,6 @@
         padding: 1.75vw 2.33vw 1.5vw 2.33vw;
         border-radius: 8.33vw;
         font: normal 700 1.5vw/140% "Noto Sans", sans-serif;
-    }
-
-    .btn_side {
         border: 0.17vw solid #a273b0;
     }
 
@@ -72,6 +69,17 @@
     .orange-arrow:before {
         left: 2.5vw;
         top: 5.0vw;
+        width: 2.08vw;
+        height: 4.17vw;
+    }
+
+    .orange-arrow_work-tool {
+        margin-left: -2.08vw;
+    }
+
+    .orange-arrow_work-tool:before {
+        left: 27.5vw;
+        top: 13.33vw;
         width: 2.08vw;
         height: 4.17vw;
     }
@@ -232,8 +240,19 @@
         width: 23.33vw;
     }
 
+    .offer__pattern {
+        width: 21.17vw;
+        height: 14.42vw;
+        top: 75.0vw;
+    }
+
+    .offer__shadow {
+        top: 66.67vw;
+    }
+
     .video {
         margin-bottom: 18.33vw;
+        height: 55.58vw;
     }
 
     .video__play {
@@ -263,6 +282,11 @@
         margin-bottom: 16.25vw;
     }
 
+    .conditions__shadow {
+        right: -33.33vw;
+        top: 25.0vw;
+    }
+
     .condition__title {
         margin-bottom: 1.67vw;
     }
@@ -277,6 +301,11 @@
 
     .programs__author {
         width: 35.83vw;
+    }
+
+    .programs__shadow {
+        left: -33.33vw;
+        top: -8.33vw;
     }
 
     .author__name {
@@ -296,26 +325,36 @@
     }
 
     .author__specs {
-        padding: 0 3.33vw;
-    }
-
-    .author__specs-title {
-        margin-bottom: 2.08vw;
+        padding-left: 3.33vw;
     }
 
     .author__specs-list {
         margin-bottom: 2.5vw;
-        margin-left: 1.67vw;
     }
 
     .author__specs-item {
-        margin-bottom: 2.08vw;
-        padding-left: 0.58vw;
+        background: url(../images/star.png) 0 2.08vw/1.17vw 1.17vw no-repeat;
+        padding-left: 2.92vw;
+        padding-top: 2.08vw;
     }
 
     .author__btn {
         margin-bottom: 1.67vw;
         margin-left: 3.33vw;
+    }
+
+    .author__name-male:after {
+        width: 8.25vw;
+        height: 8.25vw;
+        top: 1.25vw;
+        right: -3.75vw;
+    }
+
+    .author__name-female:after {
+        width: 8.25vw;
+        height: 8.25vw;
+        top: 1.25vw;
+        right: -3.75vw;
     }
 
     .expectations {
@@ -324,6 +363,11 @@
 
     .expectations__title {
         margin-bottom: 5.0vw;
+    }
+
+    .expectations__shadow {
+        right: -33.33vw;
+        top: -33.33vw;
     }
 
     .expectation {
@@ -348,25 +392,36 @@
     }
 
     .portfolio__title {
-        margin-bottom: 6.67vw;
-    }
-
-    .portfolio__title:last-child {
-        margin-bottom: 5.33vw;
+        margin-bottom: 12.5vw;
     }
 
     .portfolio__text {
         margin-bottom: 8.33vw;
-        margin-top: -3.33vw;
+        margin-top: -10.42vw;
+    }
+
+    .portfolio__text_highlighting {
+        margin-top: -11.67vw;
+        font: normal 700 2.08vw/140% "Montserrat", sans-serif;
+        margin-left: 25.0vw;
     }
 
     .portfolio__slider {
         margin-bottom: 3.33vw;
     }
 
+    .portfolio__slide img {
+        border-radius: 2.5vw;
+    }
+
     .portfolio__sub {
         width: 70.0vw;
         margin: 10.0vw auto 3.33vw;
+    }
+
+    .portfolio__shadow_index {
+        top: -16.67vw;
+        left: -33.33vw;
     }
 
     .portfolio__shadow {
@@ -392,6 +447,11 @@
     .faq__shadow {
         top: -25.0vw;
         right: -75.0vw;
+    }
+
+    .faq__shadow {
+        top: -25.0vw;
+        right: -83.33vw;
     }
 
     .question {
@@ -470,7 +530,6 @@
     }
 
     .footer__about {
-        width: 4.17vw;
         margin-top: 0.92vw;
         margin-left: 13.0vw;
     }
@@ -520,11 +579,12 @@
     }
 
     .photo-offer__title_highlighting {
-        padding: 1.83vw 0;
-        margin: 0 -2.5vw;
+        padding: 1.67vw 0;
+        margin: 0 -4.17vw;
     }
 
     .photo-offer__subtitle {
+        margin-top: -1.67vw;
         margin-bottom: 3.33vw;
     }
 
@@ -564,7 +624,7 @@
     }
 
     .photo-condition__img {
-        padding: 4.58vw;
+        margin: 4.58vw;
         width: 5.33vw;
         height: 5.0vw;
     }
@@ -575,7 +635,6 @@
 
     .skills {
         padding-bottom: 11.67vw;
-        margin-bottom: 17.33vw;
     }
 
     .skills__title {
@@ -594,6 +653,7 @@
     }
 
     .curriculum {
+        padding-top: 10.0vw;
         margin-bottom: 12.5vw;
     }
 
@@ -734,7 +794,7 @@
     }
 
     .path__title {
-        margin-bottom: 9.17vw;
+        margin-bottom: 10.83vw;
     }
 
     .path__title:after {
@@ -782,7 +842,8 @@
     }
 
     .portfolio-photo {
-        margin-bottom: 20.42vw;
+        padding-bottom: 12.5vw;
+        padding-top: 16.67vw;
     }
 
     .portfolio-photo__title {
@@ -803,12 +864,77 @@
     }
 
     .portfolio-photo__sub {
-        width: 70.0vw;
+        width: 66.67vw;
         margin: 10.0vw auto 3.33vw;
     }
 
     .portfolio-photo__shadow {
         top: 66.67vw;
         left: -25.0vw;
+    }
+
+    .video-offer {
+        margin-top: 16.92vw;
+        margin-bottom: 33.33vw;
+    }
+
+    .video-offer__title {
+        margin-bottom: 2.75vw;
+        width: 116.67vw;
+        margin-left: -10.0vw;
+    }
+
+    .video-offer__title:before {
+        top: -7.5vw;
+    }
+
+    .video-offer__title_highlighting-1 {
+        padding: 1.42vw 0;
+        margin: 0 -2.5vw;
+        margin-top: -1.33vw;
+    }
+
+    .video-offer__title_highlighting-2 {
+        padding: 1.25vw 0;
+    }
+
+    .video-offer__subtitle {
+        margin-bottom: 3.33vw;
+    }
+
+    .video-offer__btn {
+        margin-bottom: 3.5vw;
+    }
+
+    .video-offer__description {
+        gap: 4.58vw;
+    }
+
+    .video-offer__shadow {
+        left: -25.0vw;
+        top: 25.0vw;
+    }
+
+    .video-offer__pattern {
+        width: 21.17vw;
+        height: 14.42vw;
+        top: 41.67vw;
+    }
+
+    .work-tool {
+        margin-top: 12.5vw;
+        margin-bottom: 11.25vw;
+        margin-left: 3.33vw;
+    }
+
+    .work-tool__title {
+        width: 65.0vw;
+    }
+
+    .work-tool__highlight {
+        padding: 1.25vw;
+        margin-top: -2.5vw;
+        margin-left: 33.33vw;
+        width: 50.0vw;
     }
 }

@@ -3,29 +3,41 @@
     position: relative;
 
     &__title {
-        margin-bottom: 80px;
+        margin-bottom: 150px;
         display: block;
         position: relative;
     }
-    &__title:last-child {
-        margin-bottom: 64px;
-    }
+
     &__title_highlighting {
         display: inline;
         color: #F7A636;
     }
     &__text {
         margin-bottom: 100px;
-        margin-top: -40px;
+        margin-top: -125px;
         text-align: center;
+    }
+    &__text_highlighting {
+        color: #F7A636;
+        margin-top: -140px;
+        font: normal 700 25px/140% "Montserrat", sans-serif;
+        margin-left: 300px;
     }
     &__slider {
         margin-bottom: 40px;
+    }
+    &__slide img {
+        border-radius: 30px;
     }
     
     &__sub {
         width: 840px;
         margin: 120px auto 40px;
+    }
+
+    &__shadow_index {
+        top: -200px;
+        left: -400px;
     }
 
     &__shadow {

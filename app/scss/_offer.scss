@@ -69,4 +69,19 @@
         padding: 35px 30px;
         width: 280px;
     }
+
+    &__pattern {
+        position: absolute;
+		width: 254px;
+        height: 173px;
+        top: 900px;
+        left: 0;
+    }
+
+	&__shadow {
+		top: 800px;
+        left: 50%;
+        z-index: -1;
+        transform: translate(-50%, -50%);
+	}
 }

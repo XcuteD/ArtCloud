@@ -1,5 +1,6 @@
 .expectations {
     margin-bottom: 237px;
+    position: relative;
 
     &__title {
         margin-bottom: 60px;
@@ -33,6 +34,12 @@
             color: #fff;
         }
     }
+
+    &__shadow {
+		right: -400px;
+		top: -400px;
+        z-index: -1;
+	}
 }
 
 .expectation {

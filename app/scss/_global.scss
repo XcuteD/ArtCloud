@@ -71,6 +71,7 @@ h4 {
 	margin: 0 auto;
 	cursor: pointer;
 	white-space: nowrap;
+	border: 2px solid #A273B0;
 
 	&_main {
 		background: #A273B0;
@@ -81,7 +82,6 @@ h4 {
 		border-color: white;
 	}
 	&_side {
-		border: 2px solid #A273B0;
 		background: #fff;
 		color: #A273B0;
 	}
@@ -104,6 +104,7 @@ h4 {
 .text-box {
 	border: 1px solid #8581BC;
 	border-radius: 30px;
+	background: #fff;
 }
 
 .blue-cam {
@@ -120,6 +121,9 @@ h4 {
 	top: -70px;
 	width: 79px;
 	height: 58px;
+}
+.blue-cam_low-opacity:before {
+	opacity: 0.4;
 }
 
 .orange-cam {
@@ -157,6 +161,24 @@ h4 {
 	width: 25px;
 	height: 50px;
 }
+.orange-arrow_work-tool {
+	position: relative;
+	margin-left: -25px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.orange-arrow_work-tool:before {
+	content:'';
+	background: url(../images/orange_arrow.png) 0 0/100% 100% no-repeat;
+	position: absolute;
+	left: 330px;
+	top: 160px;
+	width: 25px;
+	height: 50px;
+	transform: rotate(-30deg);
+}
+
 
 .white-arrow {
 	position: relative;
@@ -281,6 +303,7 @@ h4 {
 	height: 702px;
 	background: rgba(135, 130, 212, 0.25);
 	filter: blur(100px);
+	z-index: -1;
 }
 
 .shadow__pattern {
